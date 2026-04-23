@@ -54,6 +54,11 @@ Provides the immutable evidence spine for sensitive actions, reconciliation trai
 | Field | Value |
 | --- | --- |
 | Depends On | `auth-core`, `org-tenant-core` |
+| Recommended Plugins | None |
+| Capability Enhancing | None |
+| Integration Only | None |
+| Suggested Packs | None |
+| Standalone Supported | Yes |
 | Requested Capabilities | `ui.register.admin`, `api.rest.mount`, `data.write.audit` |
 | Provides Capabilities | `audit.events` |
 | Owns Data | `audit.events` |
