@@ -5,6 +5,12 @@ export default definePackage({
   kind: "app",
   version: "0.1.0",
   displayName: "Audit Core",
+  defaultCategory: {
+    id: "platform_governance",
+    label: "Platform Governance",
+    subcategoryId: "audit_compliance",
+    subcategoryLabel: "Audit & Compliance"
+  },
   description: "Canonical audit trail and sensitive action history.",
   extends: [],
   dependsOn: ["auth-core","org-tenant-core"],
